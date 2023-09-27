@@ -1,3 +1,5 @@
+/* eslint-disable @next/next/no-img-element */
+
 import { LogOut } from 'lucide-react'
 
 export function Profile() {
@@ -9,8 +11,10 @@ export function Profile() {
         alt=""
       />
       <div className="flex flex-col truncate">
-        <span className="text-sm font-semibold text-zinc-700">Jones Souza</span>
-        <span className="truncate text-sm text-zinc-500">
+        <span className="text-sm font-semibold text-zinc-700 dark:text-zinc-100">
+          Jones Souza
+        </span>
+        <span className="truncate text-sm text-zinc-500 dark:text-zinc-400">
           jonesbass.tb@gmail.com
         </span>
       </div>
